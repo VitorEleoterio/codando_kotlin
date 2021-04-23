@@ -20,4 +20,17 @@ fun main() {
 
     val valor = 10
     val resultado = if (valor == 10) "Sim" else "não"
+
+    val teste: Int? = null
+    val operacao: Int = teste ?: 100
+
+    val teste2: Int? = 10
+    val operacao2: Int = teste2 ?: 100
+
+
+    // a variavel imutavel teste é do tipo inteiro e pode receber numeros inteiros ou vazio (null/nulo)
+    // caso a variavel não mutavel "operacao" receber um valor inteiro, a mesma irá receber a vareavel teste, caso ela seja vazia (null/nulo), ela ira receber 100 inteiro
+
+    println(operacao)
+    println(operacao2)
 }
