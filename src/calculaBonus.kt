@@ -17,4 +17,7 @@ fun main() {
     println(calculaBonus("Coordenador", 1000f))
     println(calculaBonus("Gerente Junior", 1000f))
     println(calculaBonus("Diretor", 1000f))
+
+    val valor = 10
+    val resultado = if (valor == 10) "Sim" else "não"
 }
