@@ -11,7 +11,7 @@ fun reverseUsingLoop(str: String): String {
     var i = str.length - 1
 
     while (i >= 0) {
-        sbPhrase.append(str[1])
+        sbPhrase.append(str[i])
         i--
     }
     return sbPhrase.toString()
