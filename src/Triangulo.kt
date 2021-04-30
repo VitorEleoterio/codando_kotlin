@@ -14,5 +14,9 @@ fun main() {
     println(q1)
     println(t1)
 
+    with(q1){
+    
+    }
+
 
 }
