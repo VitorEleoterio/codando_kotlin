@@ -1,6 +1,6 @@
-class Maquina(var marca: String) {
+open class Maquina(var marca: String?) {
 
-    var nucleos: Int = 0
+    var nucleos1: Int = 0
     get() {
         println("Get foi chamado")
         return field
@@ -12,9 +12,10 @@ class Maquina(var marca: String) {
     }
 }
 
+class Computador(marca: String?, val nucleos: Int?): Maquina(marca) {
+    
+}
+
 fun main() {
-    var m = Maquina("LG")
-    println(m.nucleos)
-    m.nucleos = 16
-    println(m.nucleos)
+
 }
