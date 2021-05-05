@@ -13,7 +13,7 @@ open class Maquina(var marca: String?) {
 }
 
 class Computador(marca: String?, val nucleos: Int?): Maquina(marca) {
-    
+
 }
 
 fun main() {
