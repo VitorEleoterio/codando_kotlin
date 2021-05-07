@@ -109,7 +109,7 @@ fun main() {
         .forEach { println("${it.first} : ${it.second} calorias") }
 
         //Qual das receitas possui farinha como ingrediente?
-    
+
 
         // Qual a receita mais calórica? E a menos calórica?
 

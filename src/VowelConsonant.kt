@@ -20,3 +20,6 @@ fun countConsonants(phrase: String): Int {
     }
     return totalConsonants
 }
+
+
+fun countVowesFilter(phrase: String) = phrase.filter { it.toLowerCase() in "aeiou" }.length
